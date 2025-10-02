@@ -43,7 +43,7 @@ MAX_OVERFLOW = 40
 
 # Nastavení webové aplikace
 FLASK_HOST = '0.0.0.0'
-FLASK_PORT = int(os.getenv('FLASK_PORT', 8080))  # Změněno na port 8080
+FLASK_PORT = int(os.getenv('FLASK_PORT', 10000))  # Změněno na port 8080
 FLASK_DEBUG = os.getenv('FLASK_DEBUG', 'False').lower() == 'true'
 SECRET_KEY = os.getenv('SECRET_KEY', 'volby-2025-secret-key-change-in-production')
 
