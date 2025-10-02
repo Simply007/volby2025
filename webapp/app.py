@@ -81,7 +81,7 @@ def run_app():
     try:
         # Použít 127.0.0.1 místo 0.0.0.0 pro localhost
         socketio.run(app, 
-                     host='127.0.0.1',  # Změněno na localhost
+                     host='0.0.0.0',  # Změněno na localhost
                      port=port, 
                      debug=config.FLASK_DEBUG,
                      use_reloader=False,
